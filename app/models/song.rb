@@ -31,4 +31,3 @@ class Song < ActiveRecord::Base
     self.notes.collect {|note| note.content}
   end
 end
-end
